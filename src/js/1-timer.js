@@ -28,7 +28,6 @@ dateInput.addEventListener('change', () => {
 
   clearInterval(intervalId);
   displayFormattedTime({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-  // startButton.disabled = true;
 });
 
 startButton.addEventListener('click', () => {

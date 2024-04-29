@@ -41,11 +41,13 @@ document.addEventListener('DOMContentLoaded', () => {
       iziToast.success({
         title: 'Success',
         message: `✅ Fulfilled promise in ${delay}ms`,
+        position: 'topRight',
       });
     } catch (error) {
       iziToast.error({
         title: 'Error',
         message: `❌ Rejected promise in ${delay}ms`,
+        position: 'topRight',
       });
     }
   });
